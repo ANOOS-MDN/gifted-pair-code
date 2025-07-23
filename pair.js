@@ -114,26 +114,22 @@ router.get('/', async (req, res) => {
                     const session = await Gifted.sendMessage(Gifted.user.id, { text: sid });
 
                     const GIFTED_TEXT = `
-*✅sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ✅*
+*✅تم صنع الجلسه بنجاح ✅*
 ______________________________
 ╔════◇
-║『 𝐘OU HAVE CHOOSEN MALVIN XD 』
+║『 الامبراطور انوس  』
 ╚══════════════
 
- 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-> ❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥:
- _youtube.com/@malvintech2_
-> ❒ 𝐎𝐰𝐧𝐞𝐫: 
-_https://t.me/malvintech_
-> ❒ 𝐑𝐞𝐩𝐨: 
-_https://github.com/XdKing2/MALVIN-XD_
-> ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥:
- _https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A_
+ 『••• الدعم •••』
+> ❒ المطور: 
+_+967771160204
+> ❒ جروبان الواتس اب: 
+ _https://chat.whatsapp.com/BlUx7LC9KLD24RocTSb6cD
 ╚══════════════╝ 
- MALVIN-X𝗗 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 
+ بوتات انوس
 ______________________________
 
-Use your Session ID Above to Deploy your Bot.`;
+شكراً لدعمكم منصتنا .`;
 
                     await Gifted.sendMessage(Gifted.user.id, { text: GIFTED_TEXT }, { quoted: session });
 
